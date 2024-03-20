@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ background: #5a085a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    background: #9b559b;
+}
+
+.App{
+  max-width: 700px;
+  width: 90%;
+  background: #3d1e3d;
+  margin: 20px auto;
+  color: #eee;
+ 
+}
+
+.Navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: #6d3d6d;
+
+}
+.Navbar h1{
+  margin: 10px 0;
+}
+
+.book-list{
+  margin: 20px;
+}
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li{
+  background: #6d3d6d;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+  
+}
+.book-list li:hover{
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.book-list .title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.book-list .author{
+  font-size: 0.9em;
+  color: #ddd;
+}
+.empty{
+  margin: 20px;
+  text-align: center;
+}
