@@ -65,3 +65,24 @@ code {
   margin: 20px;
   text-align: center;
 }
+form{
+  margin: 20px;
+}
+input[type='text']{
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #722a72;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+}
+input[type='submit']{
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+}
+
